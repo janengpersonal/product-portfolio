@@ -137,32 +137,39 @@
 <p><strong>When</strong> the candidate attempts to enter another character</p>
 <p><strong>Then</strong> the system prevents the answer from exceeding 2,000 characters</p>
 <p><strong>And</strong> displays an appropriate validation message.</p>
+          <br>
 <p><strong>Given</strong> the candidate has completed all required simulation questions</p>
 <p><strong>When</strong> the candidate clicks <strong>Submit</strong></p>
 <p><strong>Then</strong> the system saves the candidate&#x27;s submission</p>
 <p><strong>And</strong> sends the submission to the AI scoring process</p>
 <p><strong>And</strong> updates the simulation status to <strong>In Review</strong></p>
 <p><strong>And</strong> prevents the candidate from editing the submitted answers.</p>
+          <br>
 <p><strong>Given</strong> a candidate has submitted a simulation and AI scoring is in progress</p>
 <p><strong>When</strong> the recruiter opens the candidate&#x27;s profile</p>
 <p><strong>Then</strong> the simulation status is displayed as <strong>In Review</strong></p>
 <p><strong>And</strong> the recruiter cannot view the final AI-generated score until scoring is complete.</p>
+          <br>
 <p><strong>Given</strong> the simulation status is <strong>Completed</strong></p>
 <p><strong>When</strong> a recruiter with the appropriate permission opens the candidate&#x27;s simulation results</p>
 <p><strong>Then</strong> the recruiter can view the overall score and competency breakdown mapped to the job requirements</p>
-<p><strong>And</strong> the recruiter can use these results as evidence when evaluating the candidate.</p>
+<p><strong>And</strong> the recruiter can use these results as evidence when evaluating the candidate.</p> 
+          <br>
 <h4>User story 2: As a recruiter, I want to use an automated job simulation to assess candidates’ functional skills so that I can evaluate more candidates with less manual effort.</h4>
 <p><strong>Given</strong> a candidate has completed and submitted the job simulation</p>
 <p><strong>When</strong> the submission is received by the system</p>
 <p><strong>Then</strong> the system automatically evaluates the candidate&#x27;s functional skills based on the competencies defined for the selected role.</p>
+          <br>
 <p><strong>Given</strong> the system has completed evaluating a candidate&#x27;s simulation</p>
 <p><strong>When</strong> the scoring process is completed</p>
 <p><strong>Then</strong> the system generates an overall simulation score and competency-level scores for the candidate</p>
 <p><strong>And</strong> stores the results in the candidate&#x27;s assessment record.</p>
+          <br>
 <p><strong>Given</strong> multiple candidates have completed the simulation and their results are available</p>
 <p><strong>When</strong> a recruiter views the completed candidates for a selected role</p>
 <p><strong>Then</strong> the system displays their assessment scores and competency breakdowns in the recruitment dashboard</p>
 <p><strong>And</strong> allows the recruiter to compare candidates without manually reviewing and scoring each submission.</p>
+          <br>
 <h3>Mockups</h3>
 <p>The mockups present the Recruiter-view dashboard.</p>
 <img src="images/alpha1.png" alt="Recruiter dashboard 1">
